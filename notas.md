@@ -58,5 +58,9 @@ Esto es un link
 ![Aqui va la descripción de la imagen: alt](https://i.pinimg.com/originals/81/f2/93/81f293dacba8a3e484706f3dd0777c54.jpg)
 [Corgi Buts](https://i.pinimg.com/originals/81/f2/93/81f293dacba8a3e484706f3dd0777c54.jpg)
 GIT:
-Un checkpoint es un Comit y los vamos a usar desde la terminal, para crear un nuevo repositorio debo poner: git init. Cuando creo el repositorio debo estar dentro de la carpeta donde lo quiero crear. Master es una rama: una línea del tiempo
-Git status, es para saber a que archivos les estas o te falta darles seguimiento o bien para saber que comits tengo hechos en esa rama del tiempo.
+Un checkpoint es un Commit y los vamos a usar desde la terminal, para crear un nuevo repositorio debo poner: git init. Cuando creo el repositorio debo estar dentro de la carpeta donde lo quiero crear. Master es una rama: una línea del tiempo
+- Git status, es para saber a que archivos les estas o te falta darles seguimiento o bien para saber que commits tengo hechos en esa rama del tiempo. 
+- Git add, es para agregar archivos para seguimiento del commit.
+- para agregar todo: git add .
+- para agregar solo los cambios: git add -A
+
