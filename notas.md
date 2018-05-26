@@ -63,4 +63,19 @@ Un checkpoint es un Commit y los vamos a usar desde la terminal, para crear un n
 - Git add, es para agregar archivos para seguimiento del commit.
 - para agregar todo: git add .
 - para agregar solo los cambios: git add -A
-
+- Git log, es para saber cuantos commit hemos relizado
+Para ir a un commit anterior, me voy a cambiar a otro commit: cuando estas en una línea del tiempo vas a ver los commits que tenía realizados, los otros que se hicieron posteriormente se mostraran cuando me mueva aun commit realizado más adelante.
+- Git checkout master, es para regresar a su versión mas actual: a mi rama MASTER 
+- Git branch somethig, es para crear nuevas líneas del tiempo
+- Tail, nos muestras las últimas dos líneas o archivos.
+- .CSV, es una terminal que sirve para poder juntar varios archivos (sin tener que hacerlo manualmente)
+- mkdir -p, nos sirve para crear carpetas dentro de otra carpeta aunque no estes dentro de esa carpeta
+- ls -l, es una bandera que nos muestra loc ocntenidos en forma de lista
+- ls -a, es una bandera que nos muestra todos los archivos que encuentre, incluyendo ocultos y especiales
+- ls -la, es una bandera que nos muestra todos los archivos en forma de lista
+- echo, escribe lo que quiero, pero hay que decirle donde quieres que lo escriba o si no lo escribirá en la salida estándar que generalmente es la carpeta madre.
+    - Ejemplo echo "<h1>Holi</h1>" > ejemplo.txt
+- >>, es una operación de salida
+- cat, muestra el contenido de un archivo
+- Ejemplo: cat ejemplo.txt
+>>>>>>> Stashed changes
