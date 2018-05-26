@@ -67,6 +67,9 @@ Un checkpoint es un Commit y los vamos a usar desde la terminal, para crear un n
 Para ir a un commit anterior, me voy a cambiar a otro commit: cuando estas en una línea del tiempo vas a ver los commits que tenía realizados, los otros que se hicieron posteriormente se mostraran cuando me mueva aun commit realizado más adelante.
 - Git checkout master, es para regresar a su versión mas actual: a mi rama MASTER 
 - Git branch somethig, es para crear nuevas líneas del tiempo
+- Git remote add origin (URL), es para cuando quiero agregar un repositorio remoto
+- Git remote -v: me va a dcir que es lo que contiene de manera desglosada
+- Git push: toma los commits locales y ponlos en el repositorio remoto
 - Tail, nos muestras las últimas dos líneas o archivos.
 - .CSV, es una terminal que sirve para poder juntar varios archivos (sin tener que hacerlo manualmente)
 - mkdir -p, nos sirve para crear carpetas dentro de otra carpeta aunque no estes dentro de esa carpeta
@@ -78,4 +81,4 @@ Para ir a un commit anterior, me voy a cambiar a otro commit: cuando estas en un
 - >>, es una operación de salida
 - cat, muestra el contenido de un archivo
 - Ejemplo: cat ejemplo.txt
->>>>>>> Stashed changes
+
